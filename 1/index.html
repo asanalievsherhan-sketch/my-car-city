@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoSale — Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="logo">AutoSale</div>
+            <nav>
+                <ul>
+                    <li><a href="about.html" target="_blank">О нас</a></li>
+                    <li><a href="services.html" target="_blank">Услуги</a></li>
+                    <li><a href="contacts.html" target="_blank">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero">
+        <div class="container">
+            <h1>Быстрая купля и продажа автомобилей</h1>
+            <p>Надежный автосервис по выкупу и продаже машин. Оценим за 10 минут, выплатим деньги сразу!</p>
+            <!-- ИСПРАВЛЕНО: Добавлен номер в главную кнопку -->
+            <a href="https://wa.me" class="btn" target="_blank">Написать в WhatsApp</a>
+        </div>
+    </section>
+    <!-- Блок каталога с автомобилями -->
+    <section class="section">
+        <div class="container block-content">
+            <h2>Автомобили в наличии</h2>
+            <p class="section-desc">Выберите автомобиль и нажмите кнопку, чтобы сразу обсудить покупку в WhatsApp.</p>
+
+            <!-- Главный контейнер-сетка для ряда -->
+            <div class="car-grid">
+
+                <!-- Карточка 1 (Левая) -->
+                <div class="car-card">
+                    <img src="proekt1.jpg" alt="Toyota Camry 80" class="car-img" onerror="this.src='https://placehold.co'">
+                    <div class="car-info">
+                        <h3>Toyota Camry 80, 2024</h3>
+                        <p class="car-price">23 999 $</p>
+                        <p class="car-text">Toyota Camry 80 в чёрном цвете — стиль, статус и характер в одном автомобиле. 🔥 Элегантный внешний вид, комфортный салон и уверенная динамика делают её настоящим фаворитом на дороге. Чёрная Camry — когда автомобиль говорит сам за себя. 🖤🚘</p>
+
+                        <!-- ОТКРЫВАЕТ ОКНО О TOYOTA CAMRY -->
+                        <p><a href="camry.html" target="_blank" style="color: #1e3799; font-weight: bold; text-decoration: underline; display: inline-block; margin-bottom: 15px;">🔍 Посмотреть подробнее (Характеристики)</a></p>
+
+                        <a href="https://wa.me" class="btn-wa-car" target="_blank">Купить через WhatsApp</a>
+                    </div>
+                </div>
+
+                <!-- Карточка 2 (Правая) -->
+                <div class="car-card">
+                    <img src="PROEKT3.avif" alt="Honda CR-V" class="car-img" onerror="this.src='https://placehold.co'">
+                    <div class="car-info">
+                        <h3>Honda CR-V, 2024</h3>
+                        <p class="car-price">34 999 $</p>
+                        <p class="car-text">Honda CR-V 2024 в эффектном сером цвете — стиль, комфорт и характер в одном автомобиле! 🔥 Современный дизайн, просторный салон и уверенная динамика делают её идеальным выбором для города и путешествий. Выглядит дорого, едет уверенно — автомобиль, который точно притягивает взгляды. 🚘✨</p>
+
+                        <!-- ОТКРЫВАЕТ ОКНО О HONDA CR-V -->
+                        <p><a href="honda-crv.html" target="_blank" style="color: #1e3799; font-weight: bold; text-decoration: underline; display: inline-block; margin-bottom: 15px;">🔍 Посмотреть подробнее (Характеристики)</a></p>
+
+                        <a href="https://wa.me" class="btn-wa-car" target="_blank">Купить через WhatsApp</a>
+                    </div>
+                </div>
+
+            </div> <!-- Конец сетки -->
+        </div>
+    </section>
